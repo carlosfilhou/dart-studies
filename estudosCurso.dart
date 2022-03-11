@@ -89,4 +89,7 @@ void main() {
   Map<String, dynamic> alunos = {'name': 'carlos', 'age': 26};
 
   print(alunos);
+
+  // aqui estamos INTERPOLANDO um valor em Dart
+  print('a minha idade é $age');
 }

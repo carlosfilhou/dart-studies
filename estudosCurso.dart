@@ -85,7 +85,7 @@ void main() {
   // aqui consultando o tamanho de Map
   print(students.length);
 
-  // definindo o tipo do Map
+  // definindo o tipo de variável da primeira e da segunda coluna do Map
   Map<String, dynamic> alunos = {'name': 'carlos', 'age': 26};
 
   print(alunos);

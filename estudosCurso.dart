@@ -68,4 +68,25 @@ void main() {
 
   // mostrar se tem um elemento específico no vetor, irá retornar um valor booleano
   print(ages.contains(2333));
+
+  // quanto trabalhamos com vários atributos, uma boa ferramenta é o MAP
+  // repare que declaramos o atributo e demos valor a ele
+  Map students = {'name': 'carlos', 'age': 26, 'height': 1.88};
+  print(students);
+
+  // imprimir o valor de um atributo específico
+  print(students['age']);
+
+  // para alterar valor de um atributo específico
+  students['age'] = 27;
+
+  print(students['age']);
+
+  // aqui consultando o tamanho de Map
+  print(students.length);
+
+  // definindo o tipo do Map
+  Map<String, dynamic> alunos = {'name': 'carlos', 'age': 26};
+
+  print(alunos);
 }

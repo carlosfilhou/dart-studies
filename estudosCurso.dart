@@ -95,6 +95,7 @@ void main() {
 
   String statusOficina = 'pendente';
 
+  // aqui é uma estrutura de SWITCH (operador de condicional)
   switch (statusOficina) {
     case 'aberto':
       print('seu carro esta status aberto');
@@ -108,4 +109,11 @@ void main() {
     default:
       print('seu carro esta com status finalizado!!!!!!');
   }
+
+  // aqui é uma estrutura do for
+  for (int i = 0; i <= 5; i++) {
+    print(i);
+  }
+
+  // aqui é uma esturtura do while
 }

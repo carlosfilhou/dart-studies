@@ -92,4 +92,20 @@ void main() {
 
   // aqui estamos INTERPOLANDO um valor em Dart
   print('a minha idade é $age');
+
+  String statusOficina = 'pendente';
+
+  switch (statusOficina) {
+    case 'aberto':
+      print('seu carro esta status aberto');
+      break;
+    case 'andamento':
+      print('seu carro esta em andamento');
+      break;
+    case 'pendente':
+      print('seu carro esta pendente');
+      break;
+    default:
+      print('seu carro esta com status finalizado!!!!!!');
+  }
 }

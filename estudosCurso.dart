@@ -110,17 +110,32 @@ void main() {
       print('seu carro esta com status finalizado!!!!!!');
   }
 
+  print('aqui é a estrutura de repetição FOR');
+
   // aqui é uma estrutura do for
   for (int i = 0; i <= 5; i++) {
     print(i);
   }
 
   int valor = 1;
+
+  print('aqui é a estrutura de repetição while');
+
   // aqui é uma estrutura de repetição while
-  
   while (valor <= 10) {
     print('o valor é $valor');
-  // CUIDADO se você não colocar um parametro para travar, ele continuará infinito
+    // CUIDADO se você não colocar um parametro para travar, ele continuará infinito
     valor++;
   }
+
+  print('aqui é a estrutura Do While');
+
+  // aqui é uma estrutura de repetição DO WHILE
+
+  int valor1 = 1;
+
+  do {
+    print('o valor é $valor1');
+    valor1++;
+  } while (valor1 <= 5);
 }

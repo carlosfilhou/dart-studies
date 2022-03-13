@@ -115,5 +115,12 @@ void main() {
     print(i);
   }
 
-  // aqui é uma esturtura do while
+  int valor = 1;
+  // aqui é uma estrutura de repetição while
+  
+  while (valor <= 10) {
+    print('o valor é $valor');
+  // CUIDADO se você não colocar um parametro para travar, ele continuará infinito
+    valor++;
+  }
 }

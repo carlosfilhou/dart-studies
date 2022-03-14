@@ -138,4 +138,28 @@ void main() {
     print('o valor é $valor1');
     valor1++;
   } while (valor1 <= 5);
+
+  print('aqui é a estrutura de função simples');
+
+  // aqui é uma estrutura de função simples
+  repeatDoWhile() {
+    do {
+      print('o valor é $valor1');
+      valor1++;
+    } while (valor1 <= 15);
+  }
+
+  repeatDoWhile();
+
+  print('aqui é uma estrutura de função com parâmetros');
+
+  // aqui é uma estrutura de função com parâmetros
+  somar(int valorUm, int valorDois) {
+    int resultado = valorUm + valorDois;
+    print(resultado);
+  }
+
+  somar(25, 25);
+
+  
 }
